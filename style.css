@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.grid_2-1 {
+  display: grid;
+  padding: 50px;
+  gap: 20px;
+}
+
+@media (width>=600px) {
+  .grid_2-1 {
+    grid-template-columns: 3fr 3fr 3fr;
+    flex-direction: column;
+  }
+}
+
+.paragraf1 {
+  background-color: #d0d0d0;
+
+  border: 3px solid rgb(0, 0, 0);
+}
+.paragraf2 {
+  background-color: #d0d0d0;
+
+  border: 3px solid rgb(0, 0, 0);
+}
+.paragraf3 {
+  background-color: #d0d0d0;
+
+  border: 3px solid rgb(0, 0, 0);
+}
